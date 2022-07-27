@@ -3,24 +3,134 @@ body {
 }
 
 .nba {
-
-position: top;
-
+  position: top;
 }
 
-.banner{
-position: sticky;
-top:0px;
-background-color: #C8102E;
-color: white;
-margin-top: 3px;
-border: 5px #1D428A solid;
+.banner {
+  position: sticky;
+  top: 0px;
+  background-color: #c8102e;
+  color: white;
+  border: 5px #1d428a solid;
 }
 
-.bottom1, .bottom2, .bottom3, .bottom4, .bottom5 {
+.bottom1,
+.bottom2,
+.bottom3,
+.bottom4,
+.bottom5 {
+  margin: 0px 130px;
+  display: inline-block;
+  font-size: 50px;
+  text-align: justify;
+}
+.bottom1:hover,
+.bottom2:hover,
+.bottom3:hover,
+.bottom4:hover,
+.bottom5:hover {
+  background-color: white;
+  color: #c8102e;
   margin: 0px 130px;
   display: inline-block;
   font-size: 50px;
   text-align: justify;
 }
 
+.titulo {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(128, 128, 128);
+  margin: 0px;
+  text-overflow: clip;
+  white-space: nowrap;
+  height: 115px;
+  animation: animacao-ti 60s infinite linear;
+  overflow: hidden;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animacao-ti {
+  0% {
+    margin-left: -270%;
+  
+  }
+  100% {
+    margin-left: 100%;
+  }
+  
+}
+
+.logoutah {
+  height: 50px;
+  display: block;
+  padding: 1%;
+  position: relative;
+  top: 20px;
+}
+
+.noticiautah {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  float: left;
+  width: 55%;
+}
+
+.noticiautah:hover {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  float: left;
+  width: 55%;
+  background-color: white;
+  color: #c8102e;
+}
+
+.fotodonavan {
+  float: left;
+  width: 40%;
+  padding: 1%;
+}
+
+.logosuns {
+  height: 30px;
+  display: block;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  clear: both;
+}
+
+.noticiasuns {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  float: left;
+  width: 55%;
+  padding: 1%;
+}
+
+.noticiasuns:hover {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  background-color: white;
+  color: #c8102e;
+}
+
+.fotoayton {
+  float: left;
+  width: 40%;
+  padding: 1%;
+}
+
+body {
+  background-color: beige;
+}
+
+.div-noticia {
+
+  height: 100%;
+  background-color: gray;
+  border-left: 5px #1d428a solid;
+  border-right: 5px #1d428a solid;
+  border-bottom: 5px #1d428a solid;
+}
