@@ -18,7 +18,7 @@ body {
 .bottom2,
 .bottom3,
 .bottom4 {
-  margin: 0px 80px;
+  margin: 0px 70px;
   display: inline-block;
   font-size: 50px;
   text-align: justify;
@@ -29,7 +29,7 @@ body {
 .bottom4:hover{
   background-color: white;
   color: #c8102e;
-  margin: 0px 80px;
+  margin: 0px 70px;
   display: inline-block;
   font-size: 50px;
   text-align: justify;
